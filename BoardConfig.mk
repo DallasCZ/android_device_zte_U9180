@@ -35,7 +35,6 @@ TARGET_SCREEN_WIDTH :=720
 TARGET_SCREEN_HEIGHT :=1280
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/msm_hsusb/gadget/lun%d/file"
 BOARD_HAS_NO_SELECT_BUTTON := true
-BOARD_USE_CUSTOM_RECOVERY_FONT := \"fontcn28_15x40.h\"
 TARGET_RECOVERY_FSTAB := device/ZTE/U9180/recovery/fstab.qcom
 TARGET_RECOVERY_INITRC := device/ZTE/U9180/recovery/init.rc
 TARGET_RECOVERY_LCD_BACKLIGHT_PATH := \"/sys/class/leds/lcd-backlight/brightness\"
